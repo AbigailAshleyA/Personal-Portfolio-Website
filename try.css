@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: o;
   padding: 0;
@@ -26,6 +32,7 @@ nav {
   font-style: italic;
   cursor: pointer;
   background-color: white;
+  padding: 0 10px;
 }
 nav img {
   width: 80px;
@@ -71,11 +78,28 @@ nav ul li a:hover {
 
 span {
   color: orange;
+  font-style: italic;
+}
+
+.Hey {
+  color: #000;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.Abi{
+  font-style: italic;
+}
+
+.web{
+  font-size: 25px;
+  font-weight: bold;
+ 
 }
 
 .detail p {
-  color: #555;
-  line-height: 22px;
+  color: #000;
+  line-height: 30px;
 }
 
 .button {
@@ -92,7 +116,8 @@ span {
   justify-content: center;
 }
 
-button.b1:hover, button.b2:hover {
+button.b1:hover,
+button.b2:hover {
   background-color: white;
   color: orange;
   cursor: pointer;
@@ -134,13 +159,11 @@ button.b1:hover, button.b2:hover {
 #overlay {
   width: 100%;
   height: 100vh;
-  /* background-image: url("./try.assets/laptop.nbg.png"); */
   position: relative;
   z-index: 999;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: orange;
- 
+
 }
 
 .overlay1 {
@@ -152,23 +175,30 @@ button.b1:hover, button.b2:hover {
   z-index: 1;
 }
 
-#overlay h2{
+#overlay h2 {
   font-weight: 300;
   font-size: 30px;
   display: flex;
   justify-content: left;
-  color: white;
+  color: orange;
 }
 
-#overlay span{
+#overlay span {
   font-weight: 300;
   font-size: 20px;
-  color: white;
+  color: orange;
+}
+  
+
+#overlay p {
+  line-height: 24px;
+  font-weight: 200;
+  font-size: 18px;
+  width: 100%;
 }
 
-#overlay p{
- line-height: 24px;
- font-weight: 200;
- font-size: 18px;
- width: 100%;
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
