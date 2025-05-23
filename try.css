@@ -267,7 +267,7 @@ h2 {
 }
 
 .services-list div i {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 
@@ -376,3 +376,72 @@ h2 {
   color: orange;
   font-weight: 200;
 }
+
+.btn.btn2{
+  display: inline-block;
+  background: orange;
+  color: #fff;
+}
+/* <!--Contact--> */
+
+.contact-left{
+  flex-basis: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.contact-right{
+  flex-basis: 60%;
+}
+
+.contact-left p{
+  margin-top: 30px;
+
+}
+
+.contact-leftp i{
+  color: orange;
+  margin: 15px;
+  font-size: 25px;
+}
+.social-icons{
+  margin-top: 30px;
+  justify-content: center;
+
+}
+
+.social-icons a{
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  color: orange;
+  display: inline-block;
+  justify-content: center;
+}
+
+.social-icons a:hover{
+  color: white;
+  background: orange;
+  transition: transform 0.5s;
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+width: 80%;
+border: 0;
+outline: none;
+background-color: #262626;
+padding: 15px;
+margin: 15px 15px;
+color: #fff;
+font-size: 18px;
+border-radius: 6px;
+}
+
+
