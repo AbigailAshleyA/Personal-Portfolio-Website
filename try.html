@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./try.css" />
   </head>
   <body>
-     <nav>
+    <div id="section">
+      <nav>
         <img
           src="./try.assets/logo.jpg"
           alt=""/>
@@ -33,7 +34,7 @@
     <div class="hero">
      
       <div class="detail">
-        <h1><span class="Hey">Hey,there</span class=""> I'm Abigail<span> Ashley Ayitey</span></h1>
+        <h1><span  class="Hey">Hey there,<br></span> I'm Abigail<span> Ashley Ayitey</span></h1>
         <p>
           <span class="web">Frontend Developer</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt ante augue, sit amet fringilla odio mattis non. Suspendisse ipsum lectus, feugiat ut efficitur dictum, placerat nec dui. Aenean augue mi, blandit vitae condimentum eget, rutrum vitae eros. Sed congue diam eget eros pellentesque pellentesque. Proin blandit ullamcorper lacus pharetra aliquam. Nullam viverra consectetur ipsum sit amet congue. Nunc sagittis tortor in orci semper ornare. Nam ac nunc sit amet nulla viverra sollicitudin. Nam dignissim nunc sit amet diam finibus, nec efficitur leo semper.
         </p>
@@ -44,30 +45,105 @@
       </div>
       <img src="./try.assets/by1.jpg" alt="girl" />
     </div>
+    <!--About-->
     <div id="overlay">
-      <div>
-         <h2>EXPERIENCE</h2>
-      <div>
-        <p><span>Junior Web Developer| Freelance | April 2025 - Present.</span><br> Build and maintain respponsive website. Works collaboratively on frnt- end development tasks.  Delivered user-friendly web interfaces for clients</p>
-      </div>
-      <div>
-         <p><span>Secretary|PA|2021 - 2024</span> <br> Provided administrative support and managed church affairs. Handled scheduling, filling and documentation for international and domestic preachers. Developed strong organizational and multitasking abilities. </p>
-      </div>
-    <div>
-      </div>
-      
-    </div>
-     <!--paste my canva html code here-->
-     <div class="contact">
-      <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAEFiNgP7T4/fhqIz5qJRuVeKChYZ3NCkA/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEFiNgP7T4&#x2F;fhqIz5qJRuVeKChYZ3NCkA&#x2F;watch?utm_content=DAEFiNgP7T4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp; utm_source=link" target="_blank" rel="noopener"></a>
+      <div class="container">
+        <div class="row">
+          <div class="about">
+            <img src="./try.assets/Abby 5.jpg">
+          </div>
+          <div class="about2">
+            <h2>About<span> Me</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt ante augue, sit amet fringilla odio mattis non. Suspendisse ipsum lectus, feugiat ut efficitur dictum, placerat nec dui. Aenean augue mi, blandit vitae condimentum eget, rutrum vitae eros. Sed congue diam eget eros pellentesque pellentesque. Proin blandit ullamcorper lacus pharetra aliquam. Nullam viverra consectetur ipsum sit amet congue. Nunc sagittis tortor in orci semper ornare. Nam ac nunc sit amet nulla viverra sollicitudin. Nam dignissim nunc sit amet diam finibus, nec efficitur leo semper.
+            </p>
+
+            <div class="tab-tittles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div> 
+            <div class="contab active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                <li><span>Web Development</span><br>Designing Web App Interfaces</li>
+                <li><span>App Development</span><br>Designing Web App Interfaces</li>
+              </ul>
+            </div>
+            <div class="contab" id="experience">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                <li><span>Web Development</span><br>Designing Web App Interfaces</li>
+                <li><span>App Development</span><br>Designing Web App Interfaces</li>
+              </ul>
+            </div><div class="contab" id="education">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                <li><span>Web Development</span><br>Designing Web App Interfaces</li>
+                <li><span>App Development</span><br>Designing Web App Interfaces</li>
+              </ul>
+            </div>
+          </div>
+        </div>
      </div>
+    </div>
+    <div id="services">
+    <div class="container">
+      <h2 class="sub-title"><span>Services</span></h2>
+       <div class="services-list">
+       <div>
+        <i class="fa-solid fa-code"></i>
+        <h3><span>UI/UX</span></h3>
+        <p>Maecenas placerat ante in venenatis rhoncus. Nulla molestie porttitor dui et eleifend. Pellentesque quis neque vitae leo sollicitudin convallis ut vel urna.</p>
+        <a href="#">More</a>
+       </div>
+       <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h3><span>App Devloper</span></h3>
+        <p>Maecenas placerat ante in venenatis rhoncus. Nulla molestie porttitor dui et eleifend. Pellentesque quis neque vitae leo sollicitudin convallis ut vel urna.</p>
+        <a href="#">More</a>
+       </div>
+       <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h3><span>Web Developer</span></h3>
+        <p>Maecenas placerat ante in venenatis rhoncus. Nulla molestie porttitor dui et eleifend. Pellentesque quis neque vitae leo sollicitudin convallis ut vel urna.</p>
+        <a href="#">More</a>
+       </div>
+       </div>
+    </div>
+
+    </div>
+    <!--Portfolio-->
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./try.assets/DYSHE.png">
+            <div class="layer">
+              <h3>Social Media</h3>
+              <p> Vestibulum tristique justo a dolor lobortis sagittis. Integer euismod odio et suscipit lacinia. </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./try.assets/DYSHE.png">
+            <div class="layer">
+              <h3>Shopping App</h3>
+              <p> Vestibulum tristique justo a dolor lobortis sagittis. Integer euismod odio et suscipit lacinia. </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./try.assets/DYSHE.png">
+            <div class="layer">
+              <h3>Music Media</h3>
+              <p> Vestibulum tristique justo a dolor lobortis sagittis. Integer euismod odio et suscipit lacinia. </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+       <a href="#" class="btn">View More </a>
+    </div>
   </body>
 
 </html>
